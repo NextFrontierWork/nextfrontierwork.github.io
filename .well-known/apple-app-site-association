@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["GWPX9M425C.com.trigravity.ProteusTestBusiness"],
+        "components": [ { "/": "/proteus-test-business/*", "comment": "Proteus app messaging test (ADR e3cd40f2)" } ],
+        "paths": ["/proteus-test-business/*"]
+      }
+    ]
+  }
+}
