@@ -1,0 +1,17 @@
+{
+  "tools": [
+    {
+      "name": "measure_yard",
+      "title": "Measure a yard",
+      "description": "Measure the fence line and gates at an address using the test business's app (a stand-in for camera or AR measuring). Test only.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "address": { "type": "string", "description": "The street address of the yard." }
+        },
+        "required": ["address"]
+      },
+      "annotations": { "readOnlyHint": true }
+    }
+  ]
+}
